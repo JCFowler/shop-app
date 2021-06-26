@@ -20,6 +20,7 @@ class AppDrawer extends StatelessWidget {
               Navigator.of(context).pushReplacementNamed('/');
             },
           ),
+          Divider(),
           ListTile(
             leading: Icon(
               Icons.payment,
@@ -27,6 +28,16 @@ class AppDrawer extends StatelessWidget {
             title: Text('Orders'),
             onTap: () {
               Navigator.of(context).pushReplacementNamed('/orders');
+            },
+          ),
+          Divider(),
+          ListTile(
+            leading: Icon(
+              Icons.edit,
+            ),
+            title: Text('My Products'),
+            onTap: () {
+              Navigator.of(context).pushReplacementNamed('/user-products');
             },
           ),
         ],
