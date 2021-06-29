@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.my_shop">
+    package="app.eleveatedsoft.my_shop">
    <application
         android:label="my_shop"
         android:icon="@mipmap/ic_launcher">
